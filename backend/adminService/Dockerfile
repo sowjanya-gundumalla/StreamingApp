@@ -1,6 +1,7 @@
-FROM node:18-alpine AS base
+FROM node:18 AS base
 
 WORKDIR /app/adminService
+
 
 COPY adminService/package*.json ./
 RUN npm install --production
