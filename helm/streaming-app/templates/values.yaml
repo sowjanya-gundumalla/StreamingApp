@@ -1,0 +1,13 @@
+replicaCount: 1
+
+ecr:
+  registry: 503577850130.dkr.ecr.ap-south-1.amazonaws.com
+
+images:
+  frontend: streaming-frontend
+  auth: streaming-auth
+  streaming: streaming-service
+  admin: streaming-admin
+  chat: streaming-chat
+
+tag: latest
